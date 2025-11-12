@@ -1,3 +1,4 @@
+.idea
 .svn
 .svn/
 /bin*/
@@ -19,3 +20,4 @@
 #*.so
 *.o
 .vscode/*
+/cmake-build-debug/

@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include <glmCoreVersion.h>
+// #include <glmCoreVersion.h>
 
 //description of the component
 #define GLM_USDPLUGIN_NAME "GolaemUSDPlugin"

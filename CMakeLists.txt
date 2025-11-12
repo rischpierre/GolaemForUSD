@@ -147,7 +147,7 @@ if(GOLAEMUSD_STANDALONE_BUILD)
     endif()
 
     # Golaem Devkit dependency
-    set( GOLAEMDEVKIT_ROOTDIR "Golaem Devkit Dir" CACHE PATH "Golaem Devkit directory" )
+#    set( GOLAEMDEVKIT_ROOTDIR "Golaem Devkit Dir" CACHE PATH "Golaem Devkit directory" )
     set( GOLAEMDEVKIT_INCDIR "${GOLAEMDEVKIT_ROOTDIR}/include")
     set( GOLAEMDEVKIT_LIBDIR "${GOLAEMDEVKIT_ROOTDIR}/lib")
     if(MSVC)
