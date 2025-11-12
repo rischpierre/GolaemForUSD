@@ -8,7 +8,9 @@ cmake -S . -B build \
   -DMaterialX_DIR=/opt/usd/25.05/lib/cmake/MaterialX \
   -DGOLAEMDEVKIT_ROOTDIR=/opt/golaem/maya2026/Golaem-9.2-Maya2026/devkit \
   -DGLM_EXTERNALS_HOME=/opt \
-  -DFBXSDK_VERSION=2019.0
+  -DFBXSDK_VERSION=2019.0 \
+  -DFBXSDK_ROOTDIR=/opt/fbxsdk/fbxsdk-2019.0/linux/gcc48/ \
+  -DCMAKE_INSTALL_PREFIX=/opt/golaem
 
 # build
 cmake --build build --parallel
