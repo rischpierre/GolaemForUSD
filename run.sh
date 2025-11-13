@@ -13,4 +13,11 @@ export PYTHONPATH=${USD_INSTALL_PATH}/lib/python:/cache/dev/python39_venv_pyside
 export PXR_PLUGINPATH_NAME=${GOLAEM_INSTALL_PATH}/procedurals/usd:${PXR_PLUGINPATH_NAME}
 
 # Launch USD Viewer
-${USD_INSTALL_PATH}/bin/usdview /cache/dev/sandbox/rvx/usd/examples/simple_scene.usda
+#${USD_INSTALL_PATH}/bin/usdview /cache/dev/sandbox/rvx/usd/examples/simple_scene.usda
+
+# procedural (it works)
+${USD_INSTALL_PATH}/bin/usdview /job/hb/film/testEpisode/testSequence01/testShot1/work/valdi/lighting/golaem/usd/procedural_test01/untitled.renderProxyShape1_pierrer.usda
+
+# skeleton (it works too)
+#${USD_INSTALL_PATH}/bin/usdview /job/hb/film/testEpisode/testSequence01/testShot1/work/valdi/lighting/golaem/usd/skel_test01/untitled.crowdField1_renderProxyShape1.usda
+
