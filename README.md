@@ -43,7 +43,7 @@ export LD_LIBRARY_PATH=${GOLAEM_INSTALL_PATH}/lib:${USD_INSTALL_PATH}/lib:${LD_L
             "{GAFFER_EXTENSION_PATHS}",
             "/pipeline/AstralProjection/apps/gaffer/1.6.x.x/RvxGaffer"
         ],
-    "LD_LIBRARY_PATH": "/opt/golaem/GolaemForUSD/lib:/opt/usd/25.05/lib:${LD_LIBRARY_PATH}",
-    "PXR_PLUGINPATH_NAME": "/opt/golaem/GolaemForUSD/procedurals/usd:${PXR_PLUGINPATH_NAME}"
+    "LD_LIBRARY_PATH": "/pipeline/AstralProjection/apps/usd_plugins/GoleamForUSD/9.2/lib:${LD_LIBRARY_PATH}",
+    "PXR_PLUGINPATH_NAME": "/pipeline/AstralProjection/apps/usd_plugins/GoleamForUSD/9.2/procedurals/usd:${PXR_PLUGINPATH_NAME}"
 }
 ```
