@@ -20,4 +20,3 @@ ${USD_INSTALL_PATH}/bin/usdview /job/hb/film/testEpisode/testSequence01/testShot
 
 # skeleton (it works too)
 #${USD_INSTALL_PATH}/bin/usdview /job/hb/film/testEpisode/testSequence01/testShot1/work/valdi/lighting/golaem/usd/skel_test01/untitled.crowdField1_renderProxyShape1.usda
-

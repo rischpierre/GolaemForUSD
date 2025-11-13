@@ -30,3 +30,20 @@ Official documentation for the plugin can be found here: [http://usd.golaem.com]
 ###
 ## Changelog
 Changelog for the plugin can be found here: [ChangeLog](CHANGELOG)
+
+
+## How to add it in ayon gaffer env
+export LD_LIBRARY_PATH=${GOLAEM_INSTALL_PATH}/lib:${USD_INSTALL_PATH}/lib:${LD_LIBRARY_PATH}
+
+```json
+{
+    "PYTHONNOUSERSITE": "1",
+    "GAFFER_EXTENSION_PATHS":
+        [
+            "{GAFFER_EXTENSION_PATHS}",
+            "/pipeline/AstralProjection/apps/gaffer/1.6.x.x/RvxGaffer"
+        ],
+    "LD_LIBRARY_PATH": "/opt/golaem/GolaemForUSD/lib:/opt/usd/25.05/lib:${LD_LIBRARY_PATH}",
+    "PXR_PLUGINPATH_NAME": "/opt/golaem/GolaemForUSD/procedurals/usd:${PXR_PLUGINPATH_NAME}"
+}
+```
